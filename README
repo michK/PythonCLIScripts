@@ -1,4 +1,4 @@
-A colletion of Python Command Line Interface (CLI) scripts to do various things that I have found useful.
+A collection of Python Command Line Interface (CLI) scripts to do various things that I have found useful.
 
 The Click module has been used to create the scripts and the scripts are self-documenting using Clicks
 documentation functionality. To see script help simply do `python script.py --help`, this will give a
