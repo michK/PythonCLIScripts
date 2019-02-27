@@ -1,14 +1,29 @@
-# A collection of Python Command Line Interface (CLI) scripts to do various things that I have found useful.
+# PythonCLIScripts
 
-## The [Click](https://click.palletsprojects.com/en/7.x/) module has been used to create the scripts and the scripts are self-documenting.
-## To see the script help simply do `python script.py --help`, this will give a
-## description of the functionality and required arguments. The help screen also lists Python modules, apart
-## from Click, that are required for the script to work.
+A collection of Python Command Line Interface (CLI) scripts that I have found useful.
 
-### Prerequisits:
-#### - [Click](https://click.palletsprojects.com/en/7.x/)
-#### - Listed in help for other scripts
+## Getting Started
 
-### Brief description of script functionalities:
-##### - fbconvert: Convert Fitbit json data into csv for easier parsing and plotting.
+To run the scripts, you will need the [Click](https://click.palletsprojects.com/en/7.x/) Python module, which can be installed with
 
+```
+pip install click
+```
+## Usage
+
+To use each script, simply run
+
+```
+python CLIScript.py arg1 arg2 arg3 etc
+```
+
+## Documentation
+
+Each script is self-documented using the documentation functionality of Click. To see script functionality and required arguments, run
+
+```
+python CLIScript --help
+```
+
+## Brief description of script functionalities:
+`fbconvert`: Convert Fitbit json data into csv for easier parsing and plotting.
