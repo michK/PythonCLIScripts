@@ -1,0 +1,11 @@
+A colletion of Python Command Line Interface (CLI) scripts to do various things that I have found useful.
+
+The Click module has been used to create the scripts and the scripts are self-documenting using Clicks
+documentation functionality. To see script help simply do `python script.py --help`, this will give a
+description of the functionality and required arguments. The help screen also lists Python libraries, apart
+from Click, that are required for the script to work.
+
+Brief description of script functionalities:
+
+- fbconvert: Convert fitbit json data into csv for easier parsing and plotting.
+
