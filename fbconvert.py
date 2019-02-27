@@ -10,7 +10,7 @@ def convert(input, output):
     """
         Convert Fitbit json file to csv, where INPUT is the fitbit
         json file and OUTPUT is the converted csv file.
-        Modules used: click, json, csv
+        Packages used: click, json, csv
     """
 
     with input as f:
