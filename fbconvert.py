@@ -1,7 +1,6 @@
 import click
 import json
 import csv
-from pprint import pprint
 
 
 @click.command()
@@ -9,8 +8,9 @@ from pprint import pprint
 @click.argument('output', type=click.File('w'))
 def convert(input, output):
     """
-        Convert fitbit json file to csv, where INPUT is the fitbit
+        Convert Fitbit json file to csv, where INPUT is the fitbit
         json file and OUTPUT is the converted csv file.
+        Modules used: click, json, csv
     """
 
     with input as f:
@@ -22,6 +22,7 @@ def convert(input, output):
         output.write(', ')
         output.write(line['value'])
         output.write('\n')
+
 
 if __name__ == '__main__':
     convert()
