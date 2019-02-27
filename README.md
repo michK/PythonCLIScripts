@@ -4,7 +4,7 @@ A collection of Python Command Line Interface (CLI) scripts that I have found us
 
 ## Getting Started
 
-To run the scripts, you will need the [Click](https://click.palletsprojects.com/en/7.x/) Python module, which can be installed with
+To run the scripts, you will need the [Click](https://click.palletsprojects.com/en/7.x/) Python package, which can be installed with
 
 ```
 pip install click
